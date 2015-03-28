@@ -1,0 +1,3 @@
+class AuditionController <ApplicationController
+
+end
