@@ -3,29 +3,12 @@ Final Project Proposal
 Asia Lindsay | Carly Robinson | Chery Falcon | Donald Steinert
 
 
-
-
-
 CONTACT:  asialindsay@gmail.com; carly.a.robinson@gmail.com; falcon.chery@gmail.com; steinert.donald@gmail.com 
-
-
-
-
 
 NAME OF APP: “Time For Broadway”
 
 
-
-
-
 DESCRIPTION: Time For Broadway enables actors and casting directors to book and manage audition appointments.
-
-
-
-
-
-
-
 
 
 SCOPE: 
@@ -107,9 +90,6 @@ SCOPE:
    3. POTENTIALLY: Integrating jQuery to create collapsing views for audition times?
 
 
-
-
-
 1. POTENTIAL CHALLENGES:
 
    1.  WAITLIST
@@ -133,13 +113,7 @@ SCOPE:
 2. TEXT-MESSAGING: If auditions are running behind, the casting director can push back all audition times by X minutes and inform all actors by text message
 
 
-
-
-
 TIMELINE ESTIMATES (NOT INCLUDING REACH GOALS): 
-
-
-
 
 
 BACKEND
