@@ -2,13 +2,18 @@ class AuditionsController <ApplicationController
 # Refer to http://guides.rubyonrails.org/getting_started.html
 	def index
 		# show all auditions
+		@auditions = Auditions.all
 	end
 
 	def show
 		# show individual auditions
+		@audition = Audition.find(params[:id])
 	end
-	
+
 	def new
+	end
+
+	def edit
 	end
 
 	def create
