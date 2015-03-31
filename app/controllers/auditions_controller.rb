@@ -11,14 +11,23 @@ class AuditionsController <ApplicationController
 	end
 
 	def new
+		@audition = Audition.new
 	end
 
 	def edit
+		@audition = Audition.find(params[:id])
 	end
 
 	def create
 		# saves auditions
 		# redirects to auditions list view
+		@audition = Audition = Audition.new(audition_params)
+
+		if @audition.save
+			redirect_to @audition
+		else
+			render 'new'
+		end
 	end
 
 
