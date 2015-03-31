@@ -1,12 +1,12 @@
 class AuditionsController <ApplicationController
 # Refer to http://guides.rubyonrails.org/getting_started.html
 	def index
-		# show all auditions
+	# show all auditions
 		@auditions = Auditions.all
 	end
 
 	def show
-		# show individual auditions
+	# show individual auditions
 		@audition = Audition.find(params[:id])
 	end
 
@@ -15,12 +15,13 @@ class AuditionsController <ApplicationController
 	end
 
 	def edit
+	# just in case we have time for it ^_^
 		@audition = Audition.find(params[:id])
 	end
 
 	def create
-		# saves auditions
-		# redirects to auditions list view
+	# saves auditions
+	# redirects to auditions list view
 		@audition = Audition = Audition.new(audition_params)
 
 		if @audition.save
@@ -30,58 +31,30 @@ class AuditionsController <ApplicationController
 		end
 	end
 
-
-end
-
-=begin Example from Blog Tutorial:
-
-class ArticlesController < ApplicationController
-	def index
-    	@articles = Article.all
-   	end
-
-	def show
-		@article = Article.find(params[:id])
-	end
-
-	def new
-		@article = Article.new
-	end
-
-	def edit
-	  @article = Article.find(params[:id])
-	end	
-
-	def create
-		@article = Article.new(article_params)
- 
-  		if @article.save
-    		redirect_to @article
-  		else
-    		render 'new'
-  		end
-	end
-
-	def update
-	  @article = Article.find(params[:id])
+	def update 
+	# just in case we have time for it ^_^
+	  @audition = Audition.find(params[:id])
 	 
-	  if @article.update(article_params)
-	    redirect_to @article
+	  if @audition.update(article_params)
+	    redirect_to @audition
 	  else
 	    render 'edit'
 	  end
-	end	
-
-	def destroy
-	  @article = Article.find(params[:id])
-	  @article.destroy
-	 
-	  redirect_to articles_path
 	end
 
+	def destroy
+	# just in case we have time for it ^_^
+	  @audition = Audition.find(params[:id])
+	  @audition.destroy
+	 
+	  redirect_to audition_path
+	end
+
+
 	private
-  		def article_params
-    		params.require(:article).permit(:title, :text)
+	#Parameters
+  		def audition_params
+    		params.require(:audition).permit(:show, :description, :datetime)
   		end
+
 end
-=end
