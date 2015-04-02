@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
-get '/' => "castingdirectors#signup"
+get 'welcome/index' => "welcome#index"
+get 'castingdirectors/signup' => "castingdirectors#signup"
+get 'auditions/create' => "auditions#create"
+get 'auditions/index' => "auditions#index"
 
-  root "castingdirectors#signup"
 
-  resources :auditons
-
+root 'welcome#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
