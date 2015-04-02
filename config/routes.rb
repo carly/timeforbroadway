@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
-get 'welcome/index' => "welcome#index"
-get 'castingdirectors/signup' => "castingdirectors#signup"
-get 'auditions/create' => "auditions#create"
-get 'auditions/index' => "auditions#index"
+get '/' => 'welcome#index'
+
+resources :castingdirectors
+
+resources :auditions
+
+resources :welcome
 
 
 root 'welcome#index'
