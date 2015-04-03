@@ -19,8 +19,11 @@ ActiveRecord::Schema.define(version: 20150328192239) do
   end
 
   create_table "auditions", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "show"
+    t.string   "description"
+    t.datetime "datetime"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "casting_directors", force: :cascade do |t|
