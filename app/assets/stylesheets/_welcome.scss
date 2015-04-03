@@ -1,0 +1,129 @@
+// General
+
+
+p {
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 18px;
+  display:block; 
+}
+
+// Main Container
+
+.main {
+  background:url('http://www.madestatic.com/media/catalog/product/cache/1/replacement_main_image/2889x1500/9df78eab33525d08d6e5fb8d27136e95/b/r/broardway_small_star_lb1_1_1.jpg') no-repeat center center;
+  background-size: cover;
+  color:white;
+        .container {
+                    margin: 0 auto;
+                    text-align:center;
+                    height: 500px;
+                  }
+                  h1{
+                    font-family: 'Londrina Shadow', cursive;
+                    font-size: 100px;
+                    padding-top:100px;
+                  }
+  
+ }
+
+.main a, .footer a{
+    background:black;
+    display:inline-block;
+    padding:5px 25px;
+    text-decoration:none;
+    color:#fff;
+}
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color:#fff;
+          .col {
+                float: left;
+                width: 30%;
+                padding: 30px;
+                margin-left: 20px;
+                      h2 {
+                          color: #ffa800;
+                          font-family: 'Bowlby One SC', cursive;
+                          font-size: 40px;
+                          margin-bottom: 10px;
+                        }
+                      p {
+                          color: #000;
+                          margin-bottom: 20px;
+                          line-height: 20px;
+                        }
+
+               }
+
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+/* Casting Director */
+.castingdirector {
+  background-color: #0e0e0e; 
+  height: 595px;
+            .container {
+                       height: 600px;
+                       background:url('http://www.palamedes.co.uk/wp-content/uploads/2014/06/DirectorsChair.jpg') no-repeat center right;
+                       background-size:45%;
+                       margin-right: -10px;
+                      }
+            .btn{
+                margin-top: 150px;
+                margin-left: 220px;
+                background-color: #90d8f4;
+                color: #fff;
+                padding: 15px 40px;
+              }
+}
+
+
+.castingdirector h1 {
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+  padding:50px 0 0;
+  position:relative;
+  top:20%;
+  transform:translateY(-50%);
+
+}
+
+
+// http://www.thepreparedperformer.com/wp-content/uploads/2014/01/A-Chorus-Line-Opening.png'
+
+
+
+/* Footer */
+.footer {
+  height: 600px;
+  background:url('http://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg') no-repeat center center;
+  background-size:cover;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer .container{
+  position:relative;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
