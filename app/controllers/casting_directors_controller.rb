@@ -1,8 +1,5 @@
 class CastingDirectorsController < ApplicationController
 
-	def signup
-	end
-
 	def new
 		@castingdirector = CastingDirector.new
 	end
