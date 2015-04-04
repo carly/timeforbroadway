@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+castingdirector = Castingdirector.create(name: 'Carly', email: 'carly@carly.com', password:'password1', password_confirmation:'password1')

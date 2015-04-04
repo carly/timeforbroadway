@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+  
+devise_for :castingdirectors
+
 get '/' => 'welcome#index'
 
-resources :castingdirectors, controller: 'casting_directors'
+resources :castingdirectors, controller: 'castingdirectors'
 
 resources :auditions
 
