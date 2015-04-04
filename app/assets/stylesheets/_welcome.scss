@@ -1,32 +1,11 @@
 
-// Main Time For Broadway Header
-.main {
-  background:url('http://www.madestatic.com/media/catalog/product/cache/1/replacement_main_image/2889x1500/9df78eab33525d08d6e5fb8d27136e95/b/r/broardway_small_star_lb1_1_1.jpg') no-repeat center center;
-  background-size: cover;
-  color:#d65636;
-     .container {
-          // margin: 0 auto;
-          text-align:left;
-          height: 500px;
-        }
-      h1{
-          font-family: 'Londrina Shadow', cursive;
-          font-size: 160px;
-          padding-top:20px;
-        }
-      h3 {
-          font-family: 'Bubbler One', sans-serif;
-          display:block; 
-        }
- }
-
 
 /* Supporting */
 .supporting {
   text-align: center;
   padding: 50px 0 80px;
   background-color:#fff;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #d5d5d5;
         .col {
             float: left;
             width: 30%;
@@ -55,7 +34,7 @@
 /* Casting Director Container */
 .castingdirector {
   background-color: #fff;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #d5d5d5;
       .container {
           height: 500px;
           background:url('http://www.dinaters.info/wp-content/uploads//director-chairs-png-het9efzr.jpg') no-repeat center left;
@@ -90,35 +69,6 @@
 }
 
 
-.actors {
-  background-color: #fff; 
-  height: 595px;
-      .container {
-          height: 600px;
-          background:url('http://www.theauditionreport.com/files/2012/07/the-book-of-mormon_article_story_main.jpeg') no-repeat center center;
-          background-size: 50%;
-          color:#d65636;
-        }
-        .btn{
-          margin-left: 500px;
-          margin-top: 70px;
-          background-color: #90d8f4;
-          color: #fff;
-          padding: 15px 40px;
-              a {
-                text-decoration: none;
-                color: #fff;
-              }
-       }
-          h1 {
-            font-family: 'Londrina Shadow', cursive;
-            text-align: left;
-            font-size: 200px;
-            color: #d65636;
-            top:20%;
-            }
-}
 
-// http://www.thepreparedperformer.com/wp-content/uploads/2014/01/A-Chorus-Line-Opening.png'
 
 

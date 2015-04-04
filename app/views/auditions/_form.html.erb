@@ -1,0 +1,22 @@
+<div>
+  <h1>Create a New Audition</h1>
+
+<%= form_for :auditions do |f| %>
+  <div class="form-group">
+    <%= f.label :show %><br>
+    <%= f.text_field :show %>
+  </div>
+ 
+ <div class="form-group">
+    <%= f.label :description %><br>
+    <%= f.text_field :description %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :datetime %><br>
+    <%= f.datetime_field :datetime %>
+  </div>
+ 
+    <%= f.submit "Create Audition", class: "btn" %>
+<% end %>
+</div>

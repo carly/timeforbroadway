@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 get '/' => 'welcome#index'
 
-resources :castingdirectors
+resources :castingdirectors, controller: 'casting_directors'
 
 resources :auditions
 

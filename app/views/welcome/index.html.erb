@@ -1,10 +1,10 @@
 <body>
-    <div class="main">
+    <!-- <div class="main">
       <div class="container">
       <h1>TIME FOR BROADWAY</h1>
       <h3>An audition management system for the Internet Age. </h3>
       </div>
-    </div>
+    </div> -->
 
     <div class="supporting">
       <div class="container">
@@ -29,21 +29,11 @@
     <div class="castingdirector">
       <div class="container">
         <h1>CASTING DIRECTORS</h1>
-        <button type="button" class="btn"><a href="#">SIGN UP</a></button>
+        <button type="button" class="btn"><%= link_to "SIGN UP", :action =>'new', :controller=>'casting_directors' %></button>
       </div>
-    </div>
-    
-     <div class="actors">
-      <div class="container">
-          
-      </div>
-    </div>
-    
-    <div class="footer">
-        <div class="container">
-            <p>created by AL, CR, CF and DS</p>
-        </div>
     </div>
 
+    
+     
   </body>
 </html>

@@ -7,17 +7,25 @@ class CastingDirectorsController < ApplicationController
 	def create
 		@castingdirector = CastingDirector.new(castingdirector_params)
 		if @castingdirector.save
-			#maybe this isn't right...
-			redirect_to(:action => "auditions#index")
+			redirect_to(:action => "create", :controller => 'auditions')
 		else
 			render ('new') 
 		end
 	end
 
+	def index
+		@castingdirector = CastingDirector.all
+	end
+
+	def show
+		@CastingDirector = CastingDirector.find(params[:id])
+	end
+
+
 	private
 
 	def castingdirector_params
-		params.require(:castingdirector).permit(:name, :email, :password_digest)
+		params.require(:casting_director).permit(:name, :email, :password_digest)
 	end
 
 end

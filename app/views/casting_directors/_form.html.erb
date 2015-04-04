@@ -1,0 +1,27 @@
+
+<div class="castingform">
+  <div class="container">
+        <h1>Create New Casting Director Account</h1>
+
+ 
+        <%= form_for @castingdirector, url:{action: "create"} do |f| %>
+          <div class="form-group">
+            <%= f.label :name %>
+            <%= f.text_field :name, class: 'form-control' %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label :email %>
+            <%= f.email_field :email, class: 'form-control' %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label :password %>
+            <%= f.password_field :password, class: 'form-control' %>
+          </div>
+
+          <%= f.submit "Create Account", class: "btn" %>
+        <% end %>
+
+</div>
+</div>
